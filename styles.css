@@ -1,0 +1,469 @@
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif; /* Times New Roman font */
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f7f0e8; /* Blanc cassé color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+.navbar .logo img {
+    height: 70px;
+    /* Add more styles as needed */
+}
+
+.navbar .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    /* Add more styles as needed */
+}
+
+.navbar .nav-links li a {
+    color: #534b4f; /* Navy color */
+    text-decoration: none;
+    /* Add more styles as needed */
+}
+
+/* Parallax Sections */
+.parallax-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #534b4f; /* Navy color */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Home Section Styling */
+.home-section {
+    background-image: url('p.jpg');
+    /* Add more styles as needed */
+}
+
+.home-section .content {
+    text-align: center;
+}
+
+.home-section h1 {
+    font-size: 3em;
+    /* Add more styles as needed */
+}
+
+.home-section .blanc-casse-color {
+    color: #f7f0e8; /* Blanc cassé color */
+    
+}
+
+.home-section .marketplace-color {
+    color: #c9a2a5; /* Claire color */
+    font-family: 'Arial', sans-serif; /* Different font for Marketplace */
+}
+
+.home-section p {
+    font-size: 1.5em;
+    /* Add more styles as needed */
+}
+
+/* Shop Section Styling */
+.shop-section {
+    background-color: #f7f0e8; /* Blanc cassé color */
+    /* Add more styles as needed */
+}
+
+.shop-section .content {
+    text-align: center;
+}
+
+.shop-section button {
+    background-color: #f4d6c5; /* Pastel color */
+    color: #534b4f; /* Navy color */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    /* Fun detail */
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.shop-section button:hover {
+    transform: scale(1.1);
+}
+
+.shop-section p {
+    font-size: 1.2em;
+    /* Add more styles as needed */
+}
+
+/* Contact Section Styling */
+.contact-section {
+    background-image: url('p4.jpg'); /* Restored background */
+    /* Add more styles as needed */
+}
+
+.contact-section .content {
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2.5em;
+    /* Add more styles as needed */
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 500px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.contact-section input,
+.contact-section textarea {
+    width: 100%;
+    padding: 10px;
+    /* Add more styles as needed */
+}
+
+.contact-section button {
+    background-color: #f4d6c5; /* Pastel color */
+    color: #a17189; /* Navy color */
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    /* Fun detail */
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.contact-section button:hover {
+    transform: scale(1.1);
+}
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif; /* Times New Roman font */
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f7f0e8; /* Blanc cassé color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* ... (Previous styles remain unchanged) */
+
+/* Login Section Styling */
+.login-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f0e8; /* Blanc cassé color */
+}
+
+.login-section .content {
+    text-align: center;
+}
+
+.login-section h2 {
+    font-size: 2.5em;
+    /* Add more styles as needed */
+}
+.login-section .loguseradmin {
+    /*font-size: 2.5em;*/
+    margin-left: 280px;
+    /* Add more styles as needed */
+}
+
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.login-section input,
+.login-section button {
+    width: 100%;
+    padding: 10px;
+    /* Add more styles as needed */
+}
+
+.login-section button {
+    background-color: #f4d6c5; /* Pastel color */
+    color: #534b4f; /* Navy color */
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    /* Fun detail */
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.login-section button:hover {
+    transform: scale(1.1);
+}
+
+.login-section p {
+    font-size: 0.9em;
+}
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif; /* Times New Roman font */
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f7f0e8; /* Blanc cassé color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* ... (Previous styles remain unchanged) */
+
+/* Sign Up Section Styling */
+.signup-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f0e8; /* Blanc cassé color */
+}
+
+.signup-section .content {
+    text-align: center;
+}
+
+.signup-section h2 {
+    font-size: 2.5em;
+    color: #534b4f;
+    display: block;
+    /* Add more styles as needed */
+}
+
+
+.signup-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.signup-section input,
+.signup-section button {
+    width: 100%;
+    padding: 10px;
+    /* Add more styles as needed */
+}
+
+.signup-section button {
+    background-color: #f4d6c5; /* Pastel color */
+    color: #534b4f; /* Navy color */
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    /* Fun detail */
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.signup-section button:hover {
+    transform: scale(1.1);
+}
+
+.signup-section p {
+    font-size: 0.9em;
+}
+/* ... (Previous styles remain unchanged) */
+
+/* Calm Background Animation for Shop Section */
+.calm-background {
+    background: linear-gradient(135deg, #f7f0e8, #c9aa79, #f7f0e8); /* Calm gradient */
+    background-size: 600% 600%;
+    overflow: hidden;
+    animation: calmAnimation 5s ease infinite;
+}
+
+@keyframes calmAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Times New Roman', serif; /* Times New Roman font */
+    padding-top: 70px;
+}
+
+/* Navigation Bar Styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f7f0e8; /* Blanc cassé color */
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Sign Up Section Styling */
+.register-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f0e8; /* Blanc cassé color */
+}
+
+.register-section .content {
+    text-align: center;
+}
+
+.register-section h2 {
+    font-size: 2.5em;
+    color: #534b4f;
+    display: block;
+    /* Add more styles as needed */
+}
+
+
+.register-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    max-width: 400px; /* Adjust as needed */
+    margin: 0 auto; /* Center horizontally */
+}
+
+.register-section input,
+.register-section button {
+    width: 100%;
+    padding: 10px;
+    /* Add more styles as needed */
+}
+
+.register-section button {
+    background-color: #f4d6c5; /* Pastel color */
+    color: #534b4f; /* Navy color */
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    /* Fun detail */
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.register-section button:hover {
+    transform: scale(1.1);
+}
+
+.register-section p {
+    font-size: 0.9em;
+}
+/* Add Product Section Styling */
+.add-product-section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f0e8; /* Blanc cassé color */
+}
+
+.add-product-section .content {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.add-product-section h2 {
+    font-size: 2.5em;
+    color: #534b4f;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.add-product-section form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-product-section input,
+.add-product-section button {
+    width: 100%;
+    padding: 10px;
+}
+
+.add-product-section button {
+    background-color: #f4d6c5; /* Pastel color */
+    color: #534b4f; /* Navy color */
+    font-size: 1.2em;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+}
+
+.add-product-section button:hover {
+    transform: scale(1.1);
+}
+
