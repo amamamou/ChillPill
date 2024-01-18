@@ -1,0 +1,39 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.calm-background {
+    background: linear-gradient(135deg, #f7f0e8, #c9aa79, #f7f0e8); /* Calm gradient */
+    background-size: 600% 600%; /* Larger than viewport size for animation */
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    animation: calmAnimation 20s ease infinite; /* Animation settings */
+}
+
+.content {
+    text-align: center;
+    color: #534b4f; /* Navy color */
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+@keyframes calmAnimation {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
